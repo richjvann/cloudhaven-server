@@ -1,0 +1,1 @@
+"C:\mongodb4\bin\mongodump" --db cloudhavendb  --archive=cloudhaven.archive

@@ -1,0 +1,1 @@
+c:\mongodb4\bin\mongorestore --drop --db srssdb --archive=chsrss.archive
