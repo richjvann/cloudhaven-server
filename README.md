@@ -1,4 +1,4 @@
-# cloudhaven-rest
+# cloudhaven-server
 
 This is the REST server portion of CloudHaven's Universal Application Portal. See cloudhaven-client for the Vue-based client portion (https://github.com/richjvann/cloudhaven-client).
 
