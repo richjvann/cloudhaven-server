@@ -90,7 +90,7 @@ if (useSSL) {
   var server = http.createServer(spaApp);
   var secureServer = https.createServer(key_config, spaApp);
   secureServer.listen(process.env.SSL_PORT, function () {
-    console.log('SPA app listening on port 443 with SSL.');
+    console.log(`SPA app listening on port ${process.env.SSL_PORT} with SSL.`);
   })
   server.listen(process.env.HTTP_PORT);
 } else {

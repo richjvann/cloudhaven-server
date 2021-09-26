@@ -1,5 +1,5 @@
 {
-  "name": "cloudhaven-server",
+  "name": "cloudhaven-rest",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -47,5 +47,8 @@
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2",
     "webpack-node-externals": "^2.5.2"
+  },
+  "resolutions": {
+    "chokidar": "^3.4.0"
   }
 }
